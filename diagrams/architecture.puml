@@ -1,0 +1,17 @@
+@startuml
+left to right direction
+component "main.cpp" as main
+component "disk_info" as disk
+component "csv_export" as csv
+component "logger" as log
+component "error_utils" as err
+component "Tests" as tests
+component "Windows API" as api
+main --> disk
+main --> csv
+main --> log
+main --> err
+tests --> disk
+tests --> csv
+disk --> api : GetLogicalDriveStringsW\nGetDiskFreeSpaceExW\nGetVolumeInformationW
+@enduml
