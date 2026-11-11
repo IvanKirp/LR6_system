@@ -1,0 +1,11 @@
+﻿.vs/
+x64/
+Debug/
+Release/
+*.user
+*.suo
+.venv/
+.tmp_lr4_unzip/
+data/*.bin
+*.log
+__pycache__/
