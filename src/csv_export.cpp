@@ -26,7 +26,7 @@ bool ExportToCsv(const std::wstring& path, const std::vector<DiskRecord>& record
 	output << "\xEF\xBB\xBFroot,drive_type,fs,label,total_bytes,free_bytes,used_percent,ok,error\n";
 	for (const auto& record : records) {
 		output << CsvEscape(Utf8(record.root)) << ','
-			   << DriveTypeName(record.driveType) << ','
+				  << CsvEscape(Utf8(DriveTypeName(record.driveType))) << ','
 			   << CsvEscape(Utf8(record.fileSystem)) << ','
 			   << CsvEscape(Utf8(record.label)) << ','
 			   << record.totalBytes << ',' << record.freeBytes << ','
