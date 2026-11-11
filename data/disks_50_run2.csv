@@ -1,0 +1,4 @@
+﻿root,drive_type,fs,label,total_bytes,free_bytes,used_percent,ok,error
+C:\,fixed,NTFS,Windows,181455032320,19401564160,89.3078,true,0
+D:\,fixed,NTFS,Programs,156530126848,44121894912,71.8125,true,0
+E:\,fixed,NTFS,Новый том,25145896960,25050951680,0.377578,true,0
