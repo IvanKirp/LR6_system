@@ -14,4 +14,4 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
-</Project>
+  <ItemGroup><ClCompile Include="..\src\csv_export.cpp"><Filter>Исходные файлы</Filter></ClCompile><ClCompile Include="..\src\disk_info.cpp"><Filter>Исходные файлы</Filter></ClCompile><ClCompile Include="..\src\error_utils.cpp"><Filter>Исходные файлы</Filter></ClCompile><ClCompile Include="tests.cpp"><Filter>Исходные файлы</Filter></ClCompile><ClInclude Include="..\src\csv_export.h"><Filter>Файлы заголовков</Filter></ClInclude><ClInclude Include="..\src\disk_info.h"><Filter>Файлы заголовков</Filter></ClInclude><ClInclude Include="..\src\error_utils.h"><Filter>Файлы заголовков</Filter></ClInclude></ItemGroup></Project>
